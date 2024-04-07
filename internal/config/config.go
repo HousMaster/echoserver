@@ -7,10 +7,11 @@ import (
 	"path/filepath"
 )
 
+// "/usr/local/echoserver/"
 const (
 	defaultAddr        = ":8001"
-	defaultLogFilePath = "/usr/local/echoserver/echoserver.log"
-	defaultConfigFile  = "/usr/local/echoserver/echoserver.json"
+	defaultLogFilePath = "echoserver.log"
+	defaultConfigFile  = "echoserver.json"
 )
 
 type Config struct {
